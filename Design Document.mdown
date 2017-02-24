@@ -1,0 +1,169 @@
+#DATASET
+	REUTERS-21578
+		contains 10,788 documents
+		corpus size: 43 MB
+
+#META DATA
+	Inverted Index contains nearly 45,000 unique tokens
+	Time taken to build Inverted Index: 21 minutes (approx.)
+
+#LIBRARY		
+The NLTK library in addition to various natural language processing tools, provides a few corpora for testing. We have used the REUTERS corpus (from nltk.corpus import reuters) to test our Graham Search Engine. 
+
+#MODEL
+	VECTOR SPACE MODEL
+		We have used the Vector Space Model in the Graham Search Engine.
+		We have preferred the Vector Space Model over the Boolean Retrieval Model for the following reasons:
+			-	In case of Boolean Retrieval Model, documents either match or they don't. There's no way to find the relative ordering between them.
+			-	Another limitation of Boolean Retrieval Model is that often it yields either too few or too many results.
+			-	Vector Space Model allows us to improve the precision of the search engine.
+
+	POSITIONAL INDEX
+		In addition to the term frequency of tokens, we have also stored the positional indices of the tokens.
+			-	This allows to search for Phrases Queries and Exact-Proximity Queries. 
+			-	Although we have to pay a higher memory cost to store the positional indices, the merits of storing these outweigh the memory cost.
+
+#DATA STRUCTURES
+	We have used Python dictionaries to store various data pertaining to the corpus and the search engine. Dictionaries are implemented as hash tables internally, which has two distinct advantages:
+		(a) It allows the user to access information in constant time, thereby saving a lot of time - both during building the inverted index and while processing the queries.
+		(b) It allows us to map data to very specific keys, thus making it easier to access it.
+
+	The Inverted Index in this search engine model has been implemented as a dictionary of a dictionary of a list. 
+				{token : {docID : [posID1, posID2, ...] ...} ...}
+
+
+#OPTIMISATION
+	->	HASH TABLES
+			By using Python dictionaries, we were able to access data in O(1) time, thus making the Search Engine faster.
+
+	->	STORING THE INVERTED INDEX
+			The Inverted Index is saved as a JSON file so as to avoid the time required for (re)building the Inverted Index, if there are no modifications.
+
+	->	REMOVING STOPWORDS FROM VOCABULARY
+			Stopwords make up up to 30% of the text in the entire corpus. Removing stopwords helps to reduce the size of the Inverted Index as well as the saves precious time.  
+
+	->	OPTIMISING COMPARISION TIME FOR STOPWORDS
+			An ordered list is used for storing stopwords. This enables to search for stopwords in O(log N) time, which is significantly better than the O(N) time complexity of searching in unordered arrays.
+	
+*Initially, we store the document IDs of all the files in the corpus in a list (documents).
+
+#TOKENIZATION
+	We use the nltk library for tokenization. 
+	(a)	We use the word_tokenize(<string>) function to tokenize the content of each file.
+	(b)	We change every token to lower case to homogenize the words/tokens.
+
+#NORMALIZATION
+	Again, we make use of the nltk library for normalizing the tokens.
+	We use the process of Stemming to reduce the words to their base forms. We did stemming instead of Lemmatization because we felt that it had the following advantages:
+		-	Stemming allows us to create equivalent class like objects, which improves the relevance of the documents being returned (while searching queries).
+		For eg: 'running','runs','run' - all get mapped to the same token: 'run'
+		-	The process of Lemmatization is more expensive in terms of time cost as it compares all synonyms of the words. We wanted to make our Search Engine faster, and thus chose Stemming. 
+
+#BUILDING THE INVERTED INDEX:
+	(a)	To build the inverted index we first make a list of all the tokens corresponding to each file in the corpus.
+			docID -> [token1,token2,token3,....]
+	(b)	Then we enumerate all the tokens present in a file and then map each token to it's position in the file. However, we remove the stopwords from the list of tokens before mapping them to the position IDs
+			docID -> {token1:[posID1, posID2, ...], token2:[posID1, posID2, ...] }
+	(c)	We repeat this process for every document in the corpus to build an Index (function: index_file)
+			{
+			docID1:[token1_1,token1_2,...]
+			docID2:[token1_1,token1_2,...]
+			.
+			.
+			.
+			}
+	(d)	Then for every (non-stopword) token present in the the corpus, we build the Inverted Index.
+			{token : {docID : [posID1, posID2, ...] ...} ... }
+	(e)	Building an inverted index is the most expensive operation while making a search engine. So to optimize the run time of our program, we avoid rebuilding the inverted index each time the program is run. Rather, we store the inverted index persistently and rebuild it only when the user specifically asks us to. By storing the inverted index as a non-volatile file, we are able to drastically reduce the run time.
+
+#QUERYING
+	(a)	A string query is taken as input.
+	(b)	Entered queries can be of one of the two forms mentioned below:
+		-	Normal Queries 		: Given as plain-text
+		-	Phrase Queries		: Given inside quotation-marks ("")
+		-	Proximity Queries 	: Given inside quotation-marks (""); Enter '*' k times in between the the query terms to get results corresponding to query terms with exactly (k) words within them
+	(c)	The query is taken as a string. The string is then separated into tokens and changed to lowercase.
+	(d) Spell Check is done on the list of tokens and the user is asked if he wants to change the entered query.
+	(e) After the spell check is done, the query tokens are stemmed.
+
+#PHRASE QUERY PROCESSING
+	(a)	Query is split into tokens and their indices are noted.
+	(b)	Documents containing all the query-tokens are retrieved.
+	(c)	Using the positonal information available in the Inverted Index, we are able to match the exact phrase, and keep a count of their occurrence.
+	(d) Ranking is done on the basis of frequency of occurrence of entire phrase (query)
+
+#SPELLING CORRECTION
+	Spelling Correction of the Query using spell_correction function from TextBlob - a python library for processing textual data. 
+	It is based on Peter Norvig’s algorithm which is about 70% accurate.
+	Queries entered by user are checked for spelling errors and suggestions are displayed.
+
+
+#RETRIEVAL OF DOCUMENTS
+	(a)	We search for each stemmed query token in the inverted index and store all the ID's of the documents 
+	(b)	We repeat this step for all the tokens in the query and concatenate the document IDs to a list.
+	(c)	The above-mentioned list contains the document-IDs of all the documents that contain at least one token => It gives the list of all relevant documents from the whole corpus.
+
+#RANKING OF DOCUMENTS
+	Rather than a set of documents satisfying a query expression, in Ranked Retrieval, the search engine returns an ordering over the (top) documents in the collection for a query. By implementing the Ranked Retrieval Model we are able to drastically improve the precision of our search engine, since the best (most relevant) document(s) are given priority, rather than directly displaying all documents which might be even slightly relevant.  
+
+	The ranking function used to retrieve documents is a slight variation on the "Okapi BM25" retrieval function, a state-of-the-art tf-idf weighting function, which includes document length normalization and two parameters to fine tune the results. The variation is done on the inverse-document-frequency (IDF) weighting function, where the IDF weight is taken as 
+
+							idfWeight(query) = log((N+1)/DF),
+
+	 where N is the number of documents in the corpus, and DF is the document frequency of the given query word/token in the corpus. The term frequency weight is taken as is from BM25, that is
+
+		tfWeight(word,doc) = (tf * (k+1)) / (tf + k*(1 - b + b*(docLength/avgDocLength)))
+
+	where tf is term frequency of word in document, k and b are parameters, docLength is length of document and avgDocLength is average of document lengths in corpus.
+
+	The (docLength/avgDocLength) term in the denominator is the document length normalization factor which penalizes long documents because they are obviously more likely to contain a given query term than shorter documents.
+
+	The total score is calculated as the product of the tf-weight and idf-weight, and is iteratively calculated for every query-document pair, where the document has at least one of the query tokens, as an optimization as opposed to calculating the scores for every document in the corpus regardless of whether they contain any query term at all. The score for every document is the sum of the scores over every query token and the documents with the maximum scores are returned as results to the user.
+
+#RESULTS
+	-	Documents are displayed in accordance to their ranks.
+	-	Category information available in the Reuters dataset is used to classify the results, so as to help the user identify relevant files.
+	-	In addition, preview of each relevant document is displayed, to give an overview of the content of the files.
+	-	The user can also view/open any of the retrieved documents, which is the essence of any search engine.`     
+
+#PERFORMANCE METRICS
+	 For a subset of the corpus consisting of files = {14828,14829,14832,14833,14839,14840,14841,14842,14843,14844,14849,14852,14854,14858,14859}
+	the following queries were run.
+
+	Query				TotRet	RelRet	TotRel		Precision	Recall	F Measure	MRR	AP
+	japan ministry		4		2		2			0.5			1		0.6667	1	1
+	mining				3		2		2			0.6667		1		0.8			1	1
+	billion market		7		3		3			0.4286		1		0.6			1	1
+	wheat grain			3		2		2			0.6667		1		0.8			1	1
+	import export		3		3		3			1			1		1			1	1
+	indonesia			3		3		3			1			1		1			1	1
+	share				4		3		3			0.75		1		0.8571		1	1
+	port ship			1		1		1			1			1		1			1	1
+	copper				1		1		1			1			1		1			1	1
+	ore					2		2		2			1			1		1			1	1
+	rank				1		1		1			1			1		1			1	1
+	agreement			3		1		1			0.3333		1		0.5			1	1
+	foreign market		5		3		3			0.6			1		0.75		1	1
+	finance interview	2		1		1			0.5			1		0			1	1
+	finance market		4		4		4			1			1		1			1	1
+	money finance		2		1		1			0.5			1		0.6667		1	1
+	market share		6		4		4			0.6667		1		0.8			1	1
+	oil export			5		3		3			0.6			1		0.75		1	1
+	trade import export	6		3		3			0.5			1		0.6667		1	1
+	australia indonesia	6		6		6			1			1		1			1	1
+																				
+																				MAP=	1
+
+	Mean Average Precision, MAP=	1
+	Mean Reciprocal Rank, MRR = 1
+	Mean F Measure = 0.793
+	Precision = Relevant Docs Retrieved / Total Docs Retrieved = RelRet/TotRet
+	Recall = Relevant Docs Retrieved / Total Relevant Documents = RelRet/TotRel
+	F Measure = Harmonic mean of Precision and Recall
+	Mean Reciprocal Rank = Mean of inverse of rank of first correct answer for a sample of queries
+	Average Precision = Average of highest precision at each recall point
+	Mean Average Precision = Mean of Average Precision over a set of queries
+
+	The results are close to ideality because of the small size of the corpus, without which relevance of documents couldn't be determined. This is also the main reason behind MRR being 1, as for this small corpus and the limited amount of queries the first ranked result is always relevant, and also the reason behind AP and MAP being 1, as all the relevant documents are ranked above all non-relevant documents because of the small corpus. Also, queries with no relevant results/no relevant documents in the corpus have been ignored because for them precision and/or recall cannot be calculated.
+
+

@@ -14,25 +14,25 @@ code available online at: https://github.com/aadijain/graham-engine
 8. Spelling correction in queries
 
 ##Prerequisites
--software required:
-1. python2.7
-2. gedit
+1. software required:
+	- python2.7
+	- gedit
 
--python2.7 libraries required:
-1. nltk
-2. textblob
-3. math
-4. re
-5. json
-6. time
-7. sortedcontainers
-8. os
+2. python2.7 libraries required:
+	- nltk
+	- textblob
+	- math
+	- re
+	- json
+	- time
+	- sortedcontainers
+	- os
 
 ##Assumptions
--This program must be run on a linux system
--The user enters a valid option when prompted
--The program was tested on a ubuntu 16.04LTS system with 4GB of ram
--The corpus provided contains a "cats.txt" file which maps file names to specified categories
+- This program must be run on a linux system
+- The user enters a valid option when prompted
+- The program was tested on a ubuntu 16.04LTS system with 4GB of ram
+- The corpus provided contains a "cats.txt" file which maps file names to specified categories
 
 ##Getting Started
 1. Ensure all required software and libraries are installed 
