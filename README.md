@@ -14,11 +14,11 @@ code available online at: https://github.com/aadijain/graham-engine
 8. Spelling correction in queries
 
 ##Prerequisites
-software required:
+-software required:
 1. python2.7
 2. gedit
 
-python2.7 libraries required:
+-python2.7 libraries required:
 1. nltk
 2. textblob
 3. math
