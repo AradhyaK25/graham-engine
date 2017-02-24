@@ -1,0 +1,227 @@
+QUERY: apple pizza orange
+
+---------------------------------------------------------
+
+Did you mean: apple penza orange ?
+Press 1 to continue with the original query, otherwise Press 0
+1
+
+Number of results: 20
+
+RANK 1
+FileName:	training/4841
+Score:		1.73182850045
+Category(s):	acq
+File Preview:
+NATIONAL PIZZA CO &lt;PIZA> TO ACQUIRE RESTAURANTS
+  National Pizza Co said it reached an
+  agreement in principle to buy seven Straw Hat pizza restaurants
+  and certain related real estate for approx...
+
+RANK 2
+FileName:	training/1153
+Score:		1.57354006452
+Category(s):	acq
+File Preview:
+PANTERA &lt;PANT> AND PIZZA &lt;PZA> AGREE TO MERGE
+  Pantera's Corp said it agreed in
+  principle to acquire Pizza Inn Inc in a cash and stock
+  transaction.
+      Under terms of the proposed transac...
+
+RANK 3
+FileName:	training/5409
+Score:		1.54155294457
+Category(s):	acq
+File Preview:
+NATIONAL PIZZA &lt;PIZA> CORRECTS FIGURE
+  National Pizza Co said the
+  seven Straw Hat Piza restaurants in Los Angeles and
+  Bakersfield, Calif., that it announced plans to buy Friday are
+  expected ...
+
+RANK 4
+FileName:	training/9434
+Score:		1.51020054302
+Category(s):	acq
+File Preview:
+PANTERA'S &lt;PANT> TO BUY TEN PIZZA RESTAURANTS
+  Pantera's Corp said it agreed to
+  buy ten pizza restaurants in southeastern Colorado from
+  creditors foreclosing on the facilities.
+      The purch...
+
+RANK 5
+FileName:	training/1361
+Score:		1.27816140999
+Category(s):	orange
+File Preview:
+FCOJ SUPPLIES SIGNIFICANTLY ABOVE YEAR AGO-USDA
+  Total supply of frozen concentrated
+  orange juice (FCOJ) in 1986/87 is expected to be significantly
+  above year-earlier levels, even with carry-in s...
+
+RANK 6
+FileName:	test/17576
+Score:		1.1897677401
+Category(s):	acq
+File Preview:
+STEINBERG GROUP HAS FIVE PCT OF PIZZA INN &lt;PZA>
+  A group controlled by New York
+  investor Saul Steinberg told the Securities and Exchange
+  Commission it has acquired 168,500 shares of Pizza Inn ...
+
+RANK 7
+FileName:	training/12853
+Score:		1.1595429728
+Category(s):	acq
+File Preview:
+PANTERA'S  &lt;PANT> ACQUIRES 10 RESTAURANTS
+  Pantera's Corp said it closed on its
+  agreement to acquire ten pizza restaurant locations in
+  southeastern Colorado.
+      It said the purchase price w...
+
+RANK 8
+FileName:	training/8699
+Score:		0.908448038234
+Category(s):	trade
+File Preview:
+TAIWAN PROPOSES FURTHER TARIFF CUTS
+  Taiwan said it plans another round of
+  tariff cuts, possibly within a month, to try to narrow its
+  trade surplus with the U.S.
+      Vice Finance Minister Ronal...
+
+RANK 9
+FileName:	training/8692
+Score:		0.908448038234
+Category(s):	trade
+File Preview:
+TAIWAN PROPOSES FURTHER TARIFF CUTS
+  Taiwan said it plans another round of
+  tariff cuts, possibly within a month, to try to narrow its
+  trade surplus with the U.S.
+      Vice Finance Minister Ronal...
+
+RANK 10
+FileName:	test/20340
+Score:		0.898554204065
+Category(s):	earn
+File Preview:
+APPLE BANK FOR SAVINGS &lt;APPL.O> 3RD QTR NET
+  Shr 1.54 dlrs vs 1.27 dlrs
+      Net 7,065,000 vs 5,812,000
+      Nine mths
+      Shr 4.25 dlrs vs 3.40 dlrs
+      Net 19.5 mln vs 15.6 mln
+      Asset...
+
+RANK 11
+FileName:	training/361
+Score:		0.870124826561
+Category(s):	acq
+File Preview:
+SCIENTIFIC MICRO SYSTEMS &lt;SMSI> ACUIRES SUPERMAC
+  Scientific Micro Systems Inc said it
+  has acquired Supermac Technology, a rapidly growing supplier of
+  enhancement products and disc drive subsy...
+
+RANK 12
+FileName:	training/11416
+Score:		0.858058982893
+Category(s):	earn
+File Preview:
+PIZZA INN INC &lt;PZA> 4TH QTR LOSS
+  Shr loss 48 cts vs loss 35 cts
+      Net loss 1,587,000 vs loss 1,063,000
+      Revs 45.3 mln vs 50.9 mln
+      Avg shrs 3,322,032 vs 3,054,457
+      Year
+      S...
+
+RANK 13
+FileName:	test/16357
+Score:		0.422049568277
+Category(s):	trade
+File Preview:
+TAIWAN ANNOUNCES NEW ROUND OF IMPORT TARIFF CUTS
+  Taiwan announced plans for another round
+  of import tariff cuts on 862 foreign goods shortly before trade
+  talks with Washington which officials de...
+
+RANK 14
+FileName:	test/16094
+Score:		0.422049568277
+Category(s):	trade
+File Preview:
+TAIWAN ANNOUNCES NEW ROUND OF IMPORT TARIFF CUTS
+  Taiwan announced plans for another round
+  of import tariff cuts on 862 foreign goods shortly before trade
+  talks with Washington which officials de...
+
+RANK 15
+FileName:	test/19828
+Score:		0.386464648293
+Category(s):	acq
+File Preview:
+SAN FRANCISCO, NOT REGION, HURT BY RESTRUCTURING
+  Corporate mergers and acquisitions
+  in and around San Francisco over the past seven years have had
+  only a modest effect on the metropolitan area's...
+
+RANK 16
+FileName:	test/15675
+Score:		0.352935192307
+Category(s):	orange
+File Preview:
+WEATHER HURTS ITALIAN ORANGES - USDA REPORT
+  Unfavorable weather conditions during
+  the second week of March caused damage to oranges in the
+  Calabria region in southern Italy, the U.S. Agriculture...
+
+RANK 17
+FileName:	test/15929
+Score:		0.343181047584
+Category(s):	orange
+File Preview:
+USDA FLORIDA ORANGE REPORT CONSIDERED BEARISH
+  The U.S. Agriculture Department's
+  latest estimates on 1986/87 Florida orange production and
+  orange juice yield are bearish for the frozen concentrat...
+
+RANK 18
+FileName:	test/15846
+Score:		0.334898924353
+Category(s):	orange
+File Preview:
+USDA 1986/87 U.S. ORANGE CROP 190,050,000  BOXES, FLORIDA CROP 122,900,000 BOXES
+
+  USDA 1986/87 U.S. ORANGE CROP 190,050,000  BOXES, FLORIDA CROP 122,900,000 BOXES
+  
+
+...
+
+RANK 19
+FileName:	test/16627
+Score:		0.33275948933
+Category(s):	orange
+File Preview:
+U.S. TRADE PANEL RULES AGAINST BRAZILIAN  ORANGE JUICE IMPORTS, WILL IMPOSE DUTUES
+
+  U.S. TRADE PANEL RULES AGAINST BRAZILIAN  ORANGE JUICE IMPORTS, WILL IMPOSE DUTUES
+  
+
+...
+
+RANK 20
+FileName:	test/15847
+Score:		0.330647215502
+Category(s):	orange
+File Preview:
+USDA ESTIMATES 1986/87 ORANGE JUICE YIELD  AT 1.50 GALS PER BOX FROM FLORIDA CROP
+
+  USDA ESTIMATES 1986/87 ORANGE JUICE YIELD  AT 1.50 GALS PER BOX FROM FLORIDA CROP
+  
+
+...

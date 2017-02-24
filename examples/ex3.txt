@@ -1,0 +1,39 @@
+QUERY: "ORANGE JUICE IMPORTS"
+
+---------------------------------------------------------
+
+Number of results: 3
+
+RANK 1
+FileName:	test/16627
+Score:		2
+Category(s):	orange
+File Preview:
+U.S. TRADE PANEL RULES AGAINST BRAZILIAN  ORANGE JUICE IMPORTS, WILL IMPOSE DUTUES
+
+  U.S. TRADE PANEL RULES AGAINST BRAZILIAN  ORANGE JUICE IMPORTS, WILL IMPOSE DUTUES
+  
+
+...
+
+RANK 2
+FileName:	test/16630
+Score:		2
+Category(s):	orange
+File Preview:
+U.S. AGENCY RULES AGAINST BRAZIL ORANGE JUICE
+  The U.S. International Trade
+  Commission, ITC, voted to authorize the Commerce Department to
+  impose anti-dumping duties on imports of Brazilian froze...
+
+RANK 3
+FileName:	training/2390
+Score:		1
+Category(s):	orange
+File Preview:
+U.S. TO SET ORANGE JUICE DUTIES MONDAY
+  The Commerce Department on Monday
+  will set final dumping duties on frozen orange juice from
+  Brazil, department officials said.
+      A preliminary duty of ...
+

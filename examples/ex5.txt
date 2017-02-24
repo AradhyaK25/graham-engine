@@ -1,0 +1,228 @@
+QUERY: aaples are great
+
+---------------------------------------------------------
+
+Did you mean: apples are great ?
+Press 1 to continue with the original query, otherwise Press 0
+0
+Number of results: 20
+
+RANK 1
+FileName:	training/1361
+Score:		1.621548165
+Category(s):	orange
+File Preview:
+FCOJ SUPPLIES SIGNIFICANTLY ABOVE YEAR AGO-USDA
+  Total supply of frozen concentrated
+  orange juice (FCOJ) in 1986/87 is expected to be significantly
+  above year-earlier levels, even with carry-in s...
+
+RANK 2
+FileName:	training/8699
+Score:		1.2809403313
+Category(s):	trade
+File Preview:
+TAIWAN PROPOSES FURTHER TARIFF CUTS
+  Taiwan said it plans another round of
+  tariff cuts, possibly within a month, to try to narrow its
+  trade surplus with the U.S.
+      Vice Finance Minister Ronal...
+
+RANK 3
+FileName:	training/8692
+Score:		1.2809403313
+Category(s):	trade
+File Preview:
+TAIWAN PROPOSES FURTHER TARIFF CUTS
+  Taiwan said it plans another round of
+  tariff cuts, possibly within a month, to try to narrow its
+  trade surplus with the U.S.
+      Vice Finance Minister Ronal...
+
+RANK 4
+FileName:	test/20340
+Score:		1.26698971367
+Category(s):	earn
+File Preview:
+APPLE BANK FOR SAVINGS &lt;APPL.O> 3RD QTR NET
+  Shr 1.54 dlrs vs 1.27 dlrs
+      Net 7,065,000 vs 5,812,000
+      Nine mths
+      Shr 4.25 dlrs vs 3.40 dlrs
+      Net 19.5 mln vs 15.6 mln
+      Asset...
+
+RANK 5
+FileName:	training/361
+Score:		1.22690339645
+Category(s):	acq
+File Preview:
+SCIENTIFIC MICRO SYSTEMS &lt;SMSI> ACUIRES SUPERMAC
+  Scientific Micro Systems Inc said it
+  has acquired Supermac Technology, a rapidly growing supplier of
+  enhancement products and disc drive subsy...
+
+RANK 6
+FileName:	test/16094
+Score:		0.595103177133
+Category(s):	trade
+File Preview:
+TAIWAN ANNOUNCES NEW ROUND OF IMPORT TARIFF CUTS
+  Taiwan announced plans for another round
+  of import tariff cuts on 862 foreign goods shortly before trade
+  talks with Washington which officials de...
+
+RANK 7
+FileName:	test/16357
+Score:		0.595103177133
+Category(s):	trade
+File Preview:
+TAIWAN ANNOUNCES NEW ROUND OF IMPORT TARIFF CUTS
+  Taiwan announced plans for another round
+  of import tariff cuts on 862 foreign goods shortly before trade
+  talks with Washington which officials de...
+
+RANK 8
+FileName:	test/19828
+Score:		0.561475836631
+Category(s):	acq
+File Preview:
+SAN FRANCISCO, NOT REGION, HURT BY RESTRUCTURING
+  Corporate mergers and acquisitions
+  in and around San Francisco over the past seven years have had
+  only a modest effect on the metropolitan area's...
+
+RANK 9
+FileName:	training/11867
+Score:		0.0699199540896
+Category(s):	acq
+File Preview:
+CITADEL &lt;CDL> SETTLES WITH GREAT WESTERN &lt;GWF>
+  Citadel Holding Corp said it
+  has settled its litigation with Great Western Financial corp.
+      The company said under the terms, Great Wester...
+
+RANK 10
+FileName:	training/2474
+Score:		0.0698083817384
+Category(s):	acq
+File Preview:
+GREAT WESTERN FINANCIAL &lt;GWF> UNIT BUYS BANKS
+  Great Western Financial
+  Corp's subsidiary Great Western Bank said it will purchase
+  three retail banking branches in south Florida with total
+  de...
+
+RANK 11
+FileName:	test/16530
+Score:		0.0685835895404
+Category(s):	earn
+File Preview:
+GREAT NORTHERN NEKOOSA FIRST QTR SHR 1.59 DLRS VS 54 CTS
+
+  GREAT NORTHERN NEKOOSA FIRST QTR SHR 1.59 DLRS VS 54 CTS
+  
+
+...
+
+RANK 12
+FileName:	training/6440
+Score:		0.0668531680817
+Category(s):	earn
+File Preview:
+GREAT ATLANTIC AND PACIFIC TEA CO 4TH QTR OPER SHR 55 CTS VS 36 CTS
+
+  GREAT ATLANTIC AND PACIFIC TEA CO 4TH QTR OPER SHR 55 CTS VS 36 CTS
+  
+
+...
+
+RANK 13
+FileName:	test/20901
+Score:		0.0668531680817
+Category(s):	acq
+File Preview:
+GREAT ATLANTIC AND PACIFIC TEA CO SAID IT WITHDREW ITS OFFER TO BUY DELCHAMPS INC
+
+  GREAT ATLANTIC AND PACIFIC TEA CO SAID IT WITHDREW ITS OFFER TO BUY DELCHAMPS INC
+  
+
+...
+
+RANK 14
+FileName:	training/10231
+Score:		0.0668531680817
+Category(s):	earn
+File Preview:
+GREAT AMERICAN CORP SEES 1ST QTR CHARGE OF 14.1 MLN DLRS AGAINST LOAN LOSS ALLOWANCE
+
+  GREAT AMERICAN CORP SEES 1ST QTR CHARGE OF 14.1 MLN DLRS AGAINST LOAN LOSS ALLOWANCE
+  
+
+...
+
+RANK 15
+FileName:	test/16021
+Score:		0.0664180284974
+Category(s):	acq
+File Preview:
+GREAT AMERICAN MGMT&lt;GAMI> HAS ATCOR&lt;ATCO> STAKE
+  Great American Management and
+  Investment Inc told the Securities and Exchange Commission it
+  acquired a 7.7 pct stake in Atcor Inc.
+      Gre...
+
+RANK 16
+FileName:	training/6761
+Score:		0.0650079377201
+Category(s):	earn
+File Preview:
+GREAT LAKES FEDERAL &lt;GLFS> HIKES DIVIDEND
+  Qtly div 15 cts vs 10 cts prior qtr
+      Pay 17 April
+      Record 3 April
+      NOTE: Great Lakes Federal Savings and Loan is full name of
+  company.
+ ...
+
+RANK 17
+FileName:	training/10233
+Score:		0.0649006541356
+Category(s):	earn
+File Preview:
+GREAT AMERICAN &lt;GTAM> SEES CHARGE, WRITEDOWN
+  Great American Corp said
+  preliminary findings by regulatory examiners of its AMBANK
+  subsidiary will result in a first quarter charge of 14.1 mln
+ ...
+
+RANK 18
+FileName:	training/8717
+Score:		0.0638875658817
+Category(s):	acq
+File Preview:
+GREAT WESTERN &lt;GWF> SELLS INSURANCE UNIT
+  Great Western Financial
+  Corp said it agreed to sell its John Alden Life Insurance Co
+  and its affiliated operations for 280 mln dlrs to a
+  newly-forme...
+
+RANK 19
+FileName:	training/7337
+Score:		0.0627527637299
+Category(s):	acq
+File Preview:
+GREAT &lt;GAMI> TO BUY STANDARD&lt;SRD> UNITS' ASSETS
+  Great American Management and
+  Investment Inc said its 80 pct-owned subsidiary agreed to buy
+  certain assets of two subsidiaries of Standard O...
+
+RANK 20
+FileName:	training/3290
+Score:		0.0596985114982
+Category(s):	acq
+File Preview:
+FINANCIAL CORP &lt;FIN> UNIT COMPLETES PURCHASE
+  Financial Corp of America's
+  American Savings and Loan Association said it completed the
+  previously announced purchase of 16 retail savings branche...

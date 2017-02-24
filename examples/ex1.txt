@@ -1,0 +1,211 @@
+QUERY: japan asia china
+
+---------------------------------------------------------
+
+Number of results: 20
+
+RANK 1
+FileName:	training/11813
+Score:		2.12746130476
+Category(s):	iron-steel ship
+File Preview:
+TAIWAN SEES SHARP DECLINE IN SHIPBREAKING
+  Taiwan's shipbreaking industry is
+  expected to decline sharply this year despite the boom in 1986
+  because of keener competition from South Korea and Chin...
+
+RANK 2
+FileName:	training/6968
+Score:		1.803474659
+Category(s):	iron-steel
+File Preview:
+TAIWAN STEEL FIRM SEES LOWER EXPORTS, MORE OUTPUT
+  State-owned &lt;China Steel Corp> said its
+  steel exports will drop to some 600,000 tonnes in the year
+  ending June 30, 1987 from more than 810,00...
+
+RANK 3
+FileName:	training/7577
+Score:		1.76374553758
+Category(s):	alum
+File Preview:
+NON-COMMUNIST FEBRUARY ALUMINIUM OUTPUT UP, IPAI
+  Non-Communist daily average unwrought
+  aluminium production in February was 33,900 tonnes, up 400
+  tonnes from a downwardly revised 33,500 tonnes i...
+
+RANK 4
+FileName:	training/2954
+Score:		1.70409089121
+Category(s):	coffee
+File Preview:
+COLOMBIA DENIES SELLING COFFEE BELOW MARKET
+  Colombia denied having sold 440,000 60-kg
+  bags of old crop coffee below current market prices to clients
+  in Europe and Asia.
+      A spokesman for the...
+
+RANK 5
+FileName:	training/10043
+Score:		1.55767901265
+Category(s):	ship iron-steel
+File Preview:
+REPORT EXPECTS SHARP DROP IN WORLD IRON IMPORTS
+  World seaborne iron ore imports will
+  fall sharply by the year 2000 with declining imports to the EC
+  and Japan only partially offset by increased d...
+
+RANK 6
+FileName:	training/1385
+Score:		1.53231400948
+Category(s):	corn wheat
+File Preview:
+JAPAN CUTTING CHINA CORN COMMITMENTS - USDA
+  Japanese traders have apparently
+  sharply reduced commitments to buy Chinese corn over the next
+  six months due to high prices, the U.S. Agriculture Dep...
+
+RANK 7
+FileName:	training/8702
+Score:		1.52933549362
+Category(s):	earn
+File Preview:
+STANDARD CHARTERED PLC &lt;STCH.L> 1986 YEAR
+  Shr 97.0p vs 85.3p
+      Div 22.5p vs 20.0p making 35.0p vs 30.5p
+      Pretax profit 253.9 mln stg vs 267.9 mln
+      Tax 96.3 mln vs 125.6 mln
+      Op...
+
+RANK 8
+FileName:	training/314
+Score:		1.51279079486
+Category(s):	gold
+File Preview:
+CHINA'S HEILONGJIANG PROVINCE BOOSTS GOLD OUTPUT
+  Gold output in the northeast China
+  province of Heilongjiang rose 22.7 pct in 1986 from 1985's
+  level, the New China News Agency said. It gave no f...
+
+RANK 9
+FileName:	test/19097
+Score:		1.50931287737
+Category(s):	ship
+File Preview:
+CHINA RESUMES USSR SHIP REPAIRS AFTER 23 YEAR GAP
+  China has resumed repairs of Soviet ships
+  after a 23 year break caused by the ideological split between
+  the two countries.
+      The New China N...
+
+RANK 10
+FileName:	training/8003
+Score:		1.49270998901
+Category(s):	veg-oil soybean oilseed wheat grain
+File Preview:
+LDC FOOD AID NEEDS DECLINE IN 1986/87 - USDA
+  Total food aid needs in 69 of the
+  least developed countries declined in 1986/87, as requirments
+  fell in many countries in Africa, the Middle East and...
+
+RANK 11
+FileName:	test/14909
+Score:		1.49265275272
+Category(s):	acq
+File Preview:
+NIPPON STEEL DENIES CHINA SEEKING JAPANESE PLANTS
+  Nippon Steel Corp &lt;NSTC.T> denied local
+  newspaper reports that China has been seeking to buy steel
+  plants from Japanese firms which plan to s...
+
+RANK 12
+FileName:	training/5826
+Score:		1.48168446636
+Category(s):	grain
+File Preview:
+SOUTHEAST CHINA CROPS SAVED BY HEAVY RAIN
+  The heaviest rains for seven months are
+  believed to have saved more than one mln hectares of
+  drought-threatened crops in southeast China, the official N...
+
+RANK 13
+FileName:	training/11352
+Score:		1.47448465192
+Category(s):	trade
+File Preview:
+SOVIET UNION SEEN WATCHING CHINA GATT APPLICATION
+  China's application to join the General
+  Agreement on Tariffs and Trade (GATT) is seen as a test case by
+  the Soviet Union, which will probably de...
+
+RANK 14
+FileName:	training/930
+Score:		1.47322218803
+Category(s):	crude
+File Preview:
+MOBIL PLAN TO OPEN PEKING OFFICE, CHINA DAILY SAYS
+  Mobil Corp &lt;MOB.N> of the U.S. Plans to
+  open an office in Peking to develop oil exploration
+  opportunities in China, the China Daily said.
+  ...
+
+RANK 15
+FileName:	training/9194
+Score:		1.46312335646
+Category(s):	trade
+File Preview:
+CHINA TO TIGHTEN IMPORT CONTROL, CUT EXPORT COSTS
+  China should tighten imports of ordinary
+  goods and restrict or even forbid import of goods which can be
+  made domestically, Premier Zhao Ziyang s...
+
+RANK 16
+FileName:	training/6976
+Score:		1.46117256114
+Category(s):	trade
+File Preview:
+CHINA, TAIWAN TRADE VIA HONG KONG FELL IN 1986
+  The value of trade between China and
+  Taiwan via Hong Kong fell 13 pct to 7.45 billion H.K. Dlrs in
+  1986 from 8.59 billion dlrs in 1985, Hong Kong's...
+
+RANK 17
+FileName:	test/18466
+Score:		1.4576923678
+Category(s):	strategic-metal
+File Preview:
+CHINA MOVES TO STABILISE WORLD TUNGSTEN PRICES
+  China is moving to stabilise world prices
+  of tungsten after fluctuating prices this year affected the
+  country's export earnings, the China Daily sa...
+
+RANK 18
+FileName:	training/13255
+Score:		1.45195276375
+Category(s):	reserves
+File Preview:
+CHINA'S FOREIGN EXCHANGE RESERVES FALL DURING 1986
+  China's foreign exchange reserves
+  totalled 10.514 billion dlrs at end-1986, up from 10.37 billion
+  at end-September but down from 11.9 billion a...
+
+RANK 19
+FileName:	training/3488
+Score:		1.44827172641
+Category(s):	bop
+File Preview:
+ECONOMIC SPOTLIGHT - CHINA'S FOREIGN DEBT UP
+  China's foreign debt reached 27 billion
+  dlrs by the end of 1986, but despite an over-exposure to
+  short-term credits and yen borrowing, China remains ...
+
+RANK 20
+FileName:	training/5292
+Score:		1.43584226624
+Category(s):	ship palm-oil veg-oil
+File Preview:
+INDONESIA PLANS TO BUILD PALM OIL TERMINAL
+  Indonesia will build a crude palm oil
+  terminal at a new port on Batam island, south of Singapore,
+  Research and Technology Minister Yusuf Habibie said.
+...
