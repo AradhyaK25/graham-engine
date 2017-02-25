@@ -34,7 +34,7 @@ def tokenisenstem(phrase):
             wordcount.append(word)
     tokenise=lambda token: PorterStemmer().stem(token)
     tokenplace=[]
-    for word in wordcount:
+    for word in wordplace:
         token=(str(tokenise(word[0])),word[1])
         tokenplace.append(token)
     return tokenplace
