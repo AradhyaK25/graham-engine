@@ -16,7 +16,7 @@ def search(token,data):
 #converts phrase into token plus positionid(posid)
 # "Phrase"=[(token,posid),...]    
 def tokenisenstem(phrase):
-    words=filter(None, re.split("[, \-!?:\'\"]+",phrase))
+    words=filter(None, re.split("[, \-!?:]+",phrase))
     count=0
     wordplace=[]
     for word in words:
