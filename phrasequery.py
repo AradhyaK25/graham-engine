@@ -28,9 +28,7 @@ def tokenisenstem(phrase):
     if len(wordplace)==0:return -1
     wordcount=[]
     for word in wordplace   :
-        if word[0] in StopWords:
-           # wordplace.remove(word)
-        else:
+        if word[0] not in StopWords:
             wordcount.append(word)
     tokenise=lambda token: PorterStemmer().stem(token)
     tokenplace=[]
